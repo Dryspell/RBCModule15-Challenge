@@ -6,9 +6,7 @@ This project is meant to exemplify basic usage of R and RStudio using the suppli
 
 ## Linear Regression to Predict MPG
 
-||
-|:-:|
-|![MPG_LinRegSummary](MechaCar_mpg_LinRegSummary.PNG)|
+![MPG_LinRegSummary](MechaCar_mpg_LinRegSummary.PNG)
 
 Looking at the summary table above, we examine the ```Pr(>|t|)``` column for our relevant **p-values**. It is clear that vehicle_length and ground_clearance are our most significant factors far surpassing our alpha of 0.05. With their extreme significance, and the presence of significant variables at all, we presume that we are not overfitting our data. We note that vehicle_weight is quite close to our alpha as well, so could be examined in the abscence of other skewing factors.
 
